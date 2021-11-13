@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "eDex",
+    "slug": "eDex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pokeball2.png",
+    "splash": {
+      "image": "./assets/pokeball2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pokeball2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.evansomers2.eDex"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
